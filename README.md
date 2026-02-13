@@ -1,7 +1,5 @@
 # Orchestration Airflow sur GCP avec Docker
 
-**Auteur : Thierno BAH**
-
 ---
 
 ## 1️⃣ Introduction
