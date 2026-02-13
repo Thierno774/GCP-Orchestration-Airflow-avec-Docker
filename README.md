@@ -21,7 +21,7 @@ Il permet de gérer des **DAGs** pour l’ingestion, le traitement et le reporti
 
 Le schéma ci-dessous montre l’architecture complète du projet, incluant la VM, Docker Compose, Airflow Scheduler, Webserver, Postgres et les dossiers DAGs / Logs / Plugins.
 
-![Architecture Airflow Docker GCP](./images/airflow-gcp-docker-architecture.png)  
+![Architecture Airflow Docker GCP](./images/pipelines_airflow.png)  
 *Auteur : Thierno BAH*
 
 ---
