@@ -84,50 +84,7 @@ docker-compose up -d airflow-webserver
 
 ---
 
-## 6️⃣ Git & GitHub Workflow
-
-1. Initialiser le dépôt local :
-```bash
-git init
-```
-
-2. Ajouter les fichiers :
-```bash
-git add .
-```
-
-3. Commit avec un message clair :
-```bash
-git commit -m "Initial commit Airflow Docker GCP"
-```
-
-4. Ajouter le dépôt distant :
-```bash
-git remote add origin https://github.com/ton-utilisateur/nom-du-repo.git
-```
-
-5. Envoyer les commits sur GitHub :
-```bash
-git push -u origin main
-```
-
-6. Pour les modifications futures :
-```bash
-git add .
-git commit -m "Message descriptif"
-git push
-```
-
----
-
-## 7️⃣ CI/CD (optionnel)
-
-- Un trigger Cloud Build peut être configuré pour builder et déployer automatiquement vos DAGs Airflow dans le conteneur Docker sur la VM à chaque push sur `main`.  
-- Permet un **déploiement continu** et versionné de votre orchestration.
-
----
-
-## 8️⃣ Structure du projet
+## 6️⃣ Structure du projet
 
 ```
 airflow-docker/
@@ -141,17 +98,9 @@ airflow-docker/
 
 ---
 
-## 9️⃣ Auteurs & Contributions
-
-- **Thierno BAH** – Auteur et mainteneur du projet  
-- Contributions possibles via pull request sur GitHub  
-
----
-
 ## 🔗 Ressources utiles
 
 - [Documentation Airflow](https://airflow.apache.org/docs/)  
 - [Docker Compose](https://docs.docker.com/compose/)  
 - [Google Compute Engine](https://cloud.google.com/compute)  
-- [CI/CD avec Cloud Build](https://cloud.google.com/build)
 
